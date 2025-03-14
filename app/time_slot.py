@@ -39,6 +39,7 @@ def is_slot_available(existing_slots, new_slot):
     return True
 
 
+
 # Example usage
 start_time = "09:00"
 end_time = "18:00"

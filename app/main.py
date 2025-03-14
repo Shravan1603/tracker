@@ -213,6 +213,7 @@ else:
                 st.error(f"Error saving task: {str(e)}")
 
 
+
     # Time Slots
     if panel_option == "Time Slots":
         st.subheader("Set Available Time Slots")

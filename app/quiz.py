@@ -89,6 +89,7 @@ def parse_quiz(quiz_content):
 
     return questions
 
+
 # Evaluate user answers and provide feedback
 def evaluate_answers(questions, user_answers):
     feedback = []
