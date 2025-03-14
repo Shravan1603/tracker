@@ -10,5 +10,4 @@ pandas
 openai
 plotly
 bcrypt
-
 langchain_experimental

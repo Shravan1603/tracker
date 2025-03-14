@@ -44,6 +44,7 @@ def init_db():
                     FOREIGN KEY(task_id) REFERENCES tasks(id)
                 )''')
     conn.commit()
+
     
     return conn
 

@@ -89,8 +89,7 @@ def parse_quiz(quiz_content):
 
     return questions
 
- 
-
+# Evaluate user answers and provide feedback
 def evaluate_answers(questions, user_answers):
     feedback = []
     score = 0
@@ -115,7 +114,7 @@ def evaluate_answers(questions, user_answers):
                 f"Explanation: {question.get('explanation', 'No explanation provided.')}"
             )
             score += 1
-            
+
     
     # Add a progress bar for the score
     st.progress(score / len(questions))

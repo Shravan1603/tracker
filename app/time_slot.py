@@ -54,6 +54,5 @@ if is_slot_available(slots, new_slot):
     print("New slot added!")
 else:
     print("Time slot conflict detected!")
-    
 
 print("Generated Time Slots:", slots)
