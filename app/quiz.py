@@ -115,6 +115,7 @@ def evaluate_answers(questions, user_answers):
                 f"Explanation: {question.get('explanation', 'No explanation provided.')}"
             )
             score += 1
+            
     
     # Add a progress bar for the score
     st.progress(score / len(questions))

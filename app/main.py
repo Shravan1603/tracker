@@ -225,6 +225,7 @@ else:
             except Exception as e:
                 st.error(f"Error saving time slot: {str(e)}")
 
+
      # Schedule Task
     if panel_option == "Generate Schedule":
         st.title("📅 AI-Powered Task Scheduler")
